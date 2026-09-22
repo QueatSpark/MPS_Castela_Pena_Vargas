@@ -94,7 +94,7 @@ public class CalculadoraView extends JFrame {
         // Fila 1: AC  C  ⌫  ÷  M+
         botonAC = crearBotonFuncion("AC");
         botonC = crearBotonFuncion("C");
-        botonBackspace = crearBotonFuncion("⌫");
+        botonBackspace = crearBotonFuncion("<_");
         botonMemoriaMas = crearBotonFuncion("M+");
         colocar(panelBotones, gbc, botonAC, 0, 0, 1, 1);
         colocar(panelBotones, gbc, botonC, 1, 0, 1, 1);

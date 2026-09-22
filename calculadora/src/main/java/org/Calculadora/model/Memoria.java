@@ -9,5 +9,5 @@ public class Memoria {
     public double recuperar()      { return valor; }
     public void limpiar()          { valor = 0; activa = false; }
     public boolean estaActiva()    { return activa; }
-    public double getValor()       { return valor; }
+    //public double getValor()       { return valor; }
 }
